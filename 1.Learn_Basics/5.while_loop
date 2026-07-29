@@ -1,0 +1,12 @@
+# https://takeuforward.org/plus/dsa/problems/while-loop?source=strivers-a2z-dsa-track
+
+class Solution:
+    def whileLoop(self, d : int) -> int:
+        # Your code goes here
+        n = 0   #count
+        sum = 0
+        while n < 50:
+            sum += d
+            d += 10
+            n += 1
+        return sum
