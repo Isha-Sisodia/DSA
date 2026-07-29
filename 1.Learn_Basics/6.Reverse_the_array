@@ -1,0 +1,16 @@
+# https://www.geeksforgeeks.org/problems/reverse-an-array/1
+# https://takeuforward.org/plus/dsa/problems/pass-by-ref?source=strivers-a2z-dsa-track
+
+# Using swapping and two pointer
+class Solution:
+    def reverseArray(self, arr):
+        # code here
+        n = len(arr)
+        left = 0
+        right = n-1
+        for i in range(n//2):
+            arr[left], arr[right] = arr[right], arr[left]
+            left += 1
+            right -= 1
+        return arr
+        
