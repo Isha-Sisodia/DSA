@@ -1,0 +1,17 @@
+https://takeuforward.org/plus/dsa/problems/input-output?source=strivers-a2z-dsa-track
+class Solution:
+    def printNumber(self):
+        n = int(input())
+        print(n)
+#obj = Solution()
+#obj.printNumber()
+
+
+https://www.geeksforgeeks.org/problems/taking-input/1?utm_source=chatgpt.com
+import math
+s = input()
+n = int(input())
+ff = float(input())
+print(s)
+print(n)
+print(int(ff))
