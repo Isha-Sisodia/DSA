@@ -1,5 +1,6 @@
 # https://takeuforward.org/plus/dsa/problems/while-loop?source=strivers-a2z-dsa-track
 
+# We use while loop when we know where to stop and we use for loop when we dont know where to stop
 class Solution:
     def whileLoop(self, d : int) -> int:
         # Your code goes here
