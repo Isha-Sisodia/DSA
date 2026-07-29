@@ -1,0 +1,9 @@
+# https://takeuforward.org/plus/dsa/problems/for-loop?source=strivers-a2z-dsa-track
+
+class Solution:
+    def forLoop(self, low : int, high : int) -> int:
+        # Your code goes here
+        sum = 0
+        for i in range(low,high+1):
+            sum = sum + i
+        return sum 
