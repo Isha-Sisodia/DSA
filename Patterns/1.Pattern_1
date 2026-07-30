@@ -1,0 +1,5 @@
+# https://takeuforward.org/plus/dsa/problems/pattern-1
+class Solution:
+    def pattern1(self, n):
+        for i in range(n):
+            print("*" * n)
