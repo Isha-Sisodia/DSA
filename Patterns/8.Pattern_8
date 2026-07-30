@@ -1,0 +1,15 @@
+#https://takeuforward.org/plus/dsa/problems/pattern-8
+
+# Method 1
+n = 5
+odd_mul = 2*n-1
+spacer = 0
+for i in range(n):
+    print(" " * spacer + "*" * odd_mul)
+    odd_mul -= 2
+    spacer += 1
+    
+# Method 2
+n = 5
+for i in range(n,0,-1):
+    print(" "*(n-i) + "*"*(2*i-1))
