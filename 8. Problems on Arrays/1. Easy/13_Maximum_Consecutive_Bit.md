@@ -41,6 +41,7 @@ for x in arr:
         max_count = max(max_count, count)
     else:
         count = 0
+    #max_count = max(max_count, count)      #we can write this here also
 
 print(max_count)   # 3
 ```
